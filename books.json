@@ -1,0 +1,5 @@
+{"total_rows":3,"offset":0,"rows":[
+{"id":"038170003bcc124eddeda832250001dc","key":"038170003bcc124eddeda832250001dc","value":{"rev":"1-46aec62c9bd89327208534ee9bd060a8"},"doc":{"_id":"038170003bcc124eddeda832250001dc","_rev":"1-46aec62c9bd89327208534ee9bd060a8","title":"Tierbabys","author":"Schmid","note":"","status":"reserviert"}},
+{"id":"9e02bcc5077216461882d4269a000b39","key":"9e02bcc5077216461882d4269a000b39","value":{"rev":"1-aae53bb759146901bbef59d2c38e14ef"},"doc":{"_id":"9e02bcc5077216461882d4269a000b39","_rev":"1-aae53bb759146901bbef59d2c38e14ef","title":"Der Weg zu den Sternen ","author":"Antonio","note":"","status":"ausgeliehen"}},
+{"id":"b5f6ea862908ef2935a6b6c6e500c445","key":"b5f6ea862908ef2935a6b6c6e500c445","value":{"rev":"2-b564047f42bd56e8cb8c61154449e729"},"doc":{"_id":"b5f6ea862908ef2935a6b6c6e500c445","_rev":"2-b564047f42bd56e8cb8c61154449e729","title":"PuzzelBuch ","author":"Alexander","note":"für kinder","status":"ausgeliehen"}}
+]}

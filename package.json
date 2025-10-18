@@ -1,0 +1,17 @@
+{
+  "name": "mybooksprojekt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "module": "type",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nano": "^10.1.4"
+  }
+}

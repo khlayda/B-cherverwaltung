@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>MyBooks | Bibliotheksverwaltung</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- الجهة اليسرى: قائمة الكتب -->
+    <div class="card list-section">
+      <h2>📚 Bücherliste</h2>
+      <ul id="bookList">
+        <li>Buch 1 - Autor A</li>
+        <li>Buch 2 - Autor B</li>
+        <li>Buch 3 - Autor C</li>
+      </ul>
+    </div>
+
+    <!-- الجهة اليمنى: الفورم -->
+    <div class="card form-section">
+      <h2>📖 Buch hinzufügen / bearbeiten</h2>
+      <form id="bookForm">
+        <input type="text" id="title" placeholder="Buchtitel" required />
+        <input type="text" id="author" placeholder="Autor" required />
+        <textarea id="note" placeholder="Notiz (optional)"></textarea>
+        <select id="status">
+          <option value="verfügbar">Verfügbar</option>
+          <option value="ausgeliehen">Ausgeliehen</option>
+          <option value="reserviert">Reserviert</option>
+        </select>
+        <div class="buttons">
+          <button type="submit" id="saveBtn">💾 Speichern</button>
+          <button type="button" id="deleteBtn">🗑️ Löschen</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="books.js"></script>
+</body>
+</html>

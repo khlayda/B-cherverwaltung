@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+  color: #004d80;
+}
+
+body {
+  background-color: #e8f1f5;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-container {
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  text-align: center;
+  width: 400px;
+}
+
+.login-title {
+  color: #005080;
+  margin-bottom: 25px;
+}
+
+.login-form input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #eef3fc;
+}
+
+.login-form button {
+  background-color: #005080;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #0073aa;
+}
+
+#loginStatus {
+  margin-top: 15px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 40px;
+}
+
+/* الكروت */
+.card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 30px;
+  width: 350px;
+}
+
+.list-section {
+  border-left: 5px solid #e74c3c;
+}
+
+.form-section {
+  border-left: 5px solid #2c3e50;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 24px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  background: #f8f9fa;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+form input,
+form textarea,
+form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  background-color: #004d80;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #003d66;
+}
+
+#deleteBtn {
+  background-color: #c0392b;
+}
+
+#deleteBtn:hover {
+  background-color: #a93226;
+}
